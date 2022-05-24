@@ -25,7 +25,6 @@ void showArray(int[] arr)
     var st = string.Join(", ", arr);
     Console.WriteLine("Your array is:");
     Console.WriteLine("[{0}]", st);
-
 }
 
 // Method 'findEvenCountInArray' finds the count of even numbers in the array passed as an argument

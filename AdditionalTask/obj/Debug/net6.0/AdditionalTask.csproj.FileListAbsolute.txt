@@ -1,0 +1,15 @@
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/bin/Debug/net6.0/AdditionalTask
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/bin/Debug/net6.0/AdditionalTask.deps.json
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/bin/Debug/net6.0/AdditionalTask.runtimeconfig.json
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/bin/Debug/net6.0/AdditionalTask.dll
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/bin/Debug/net6.0/AdditionalTask.pdb
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.csproj.AssemblyReference.cache
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.AssemblyInfoInputs.cache
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.AssemblyInfo.cs
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.csproj.CoreCompileInputs.cache
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.dll
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/refint/AdditionalTask.dll
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.pdb
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/AdditionalTask.genruntimeconfig.cache
+/Users/antonsineev/Yandex.Disk.localized/Programming/GeekBrains/HomeWork/3.C_sharp_Seminar5/AdditionalTask/obj/Debug/net6.0/ref/AdditionalTask.dll
