@@ -8,7 +8,7 @@ int arrLen = int.Parse(Console.ReadLine());
 
 // Method 'initArray' creates and return an array with size, equals 'length' (4 by default).
 // Array fills with random real numbers.
-double[] initArray(int length = 4)
+double[] InitArray(int length = 4)
 {
     Random rnd = new Random();
     double[] arr = new double[length];
@@ -20,7 +20,7 @@ double[] initArray(int length = 4)
 }
 
 // Method 'showArray' prints the array passed as an argument to the console 
-void showArray(double[] arr)
+void ShowArray(double[] arr)
 {
     string st = new String("");
     for (int i = 0; i < arr.Length; i++)
@@ -32,7 +32,7 @@ void showArray(double[] arr)
 }
 
 // Method to find the minimum number of the array passed as an argument
-double getMinFromArray(double[] arr)
+double GetMinFromArray(double[] arr)
 {
     double minVal = arr[0];
     for (int i = 0; i < arr.Length; i++)
@@ -43,7 +43,7 @@ double getMinFromArray(double[] arr)
 }
 
 // Method to find the maximum number of the array passed as an argument
-double getMaxFromArray(double[] arr)
+double GetMaxFromArray(double[] arr)
 {
     double maxVal = arr[0];
     for (int i = 0; i < arr.Length; i++)
@@ -53,8 +53,8 @@ double getMaxFromArray(double[] arr)
     return maxVal;
 }
 
-double[] array = initArray(arrLen);
-showArray(array);
-Console.WriteLine("Minimum of the array is: {0:f2}", getMinFromArray(array));
-Console.WriteLine("Maximum of the array is: {0:f2}", getMaxFromArray(array));
-Console.WriteLine("Difference between minimum and maximum of the array is:  {0:f2}", getMaxFromArray(array) - getMinFromArray(array));
+double[] array = InitArray(arrLen);
+ShowArray(array);
+Console.WriteLine("Minimum of the array is: {0:f2}", GetMinFromArray(array));
+Console.WriteLine("Maximum of the array is: {0:f2}", GetMaxFromArray(array));
+Console.WriteLine("Difference between minimum and maximum of the array is:  {0:f2}", GetMaxFromArray(array) - GetMinFromArray(array));

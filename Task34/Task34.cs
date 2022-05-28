@@ -8,7 +8,7 @@ int arrLen = int.Parse(Console.ReadLine());
 
 // Method 'initArray' creates and return an array with size, equals 'length' (4 by default).
 // Array fills with random numbers included in [100, 999]
-int[] initArray(int length = 4)
+int[] InitArray(int length = 4)
 {
     Random rnd = new Random();
     int[] arr = new int[length];
@@ -20,7 +20,7 @@ int[] initArray(int length = 4)
 }
 
 // Method 'showArray' prints the array passed as an argument to the console 
-void showArray(int[] arr)
+void ShowArray(int[] arr)
 {
     var st = string.Join(", ", arr);
     Console.WriteLine("Your array is:");
@@ -28,7 +28,7 @@ void showArray(int[] arr)
 }
 
 // Method 'findEvenCountInArray' finds the count of even numbers in the array passed as an argument
-int findEvenCountInArray(int[] arr)
+int FindEvenCountInArray(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -38,6 +38,6 @@ int findEvenCountInArray(int[] arr)
     return count;
 }
 
-int[] array = initArray(arrLen);
-showArray(array);
-Console.WriteLine($"The number of even elements is: {findEvenCountInArray(array)}.");
+int[] array = InitArray(arrLen);
+ShowArray(array);
+Console.WriteLine($"The number of even elements is: {FindEvenCountInArray(array)}.");

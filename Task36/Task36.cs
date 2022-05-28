@@ -7,7 +7,7 @@ int arrLen = int.Parse(Console.ReadLine());
 // Method 'initArray' creates and return an array with size, equals 'length' (4 by default).
 // Array fills with random numbers included in [-10, 10].
 // This range is selected to facilitate verification.
-int[] initArray(int length = 4)
+int[] InitArray(int length = 4)
 {
     Random rnd = new Random();
     int[] arr = new int[length];
@@ -19,7 +19,7 @@ int[] initArray(int length = 4)
 }
 
 // Method 'showArray' prints the array passed as an argument to the console 
-void showArray(int[] arr)
+void ShowArray(int[] arr)
 {
     var st = string.Join(", ", arr);
     Console.WriteLine("Your array is:");
@@ -27,7 +27,7 @@ void showArray(int[] arr)
 }
 
 // Method 'findEvenCountInArray' finds the count of even numbers in the array passed as an argument
-int getSumOfnumsOnOddIndexes(int[] arr)
+int GetSumOfnumsOnOddIndexes(int[] arr)
 {
     int sum = 0;
     for (int i = 1; i < arr.Length; i += 2)
@@ -37,6 +37,6 @@ int getSumOfnumsOnOddIndexes(int[] arr)
     return sum;
 }
 
-int[] array = initArray(arrLen);
-showArray(array);
-Console.WriteLine($"The sum of numbers with odd indexes is: {getSumOfnumsOnOddIndexes(array)}.");
+int[] array = InitArray(arrLen);
+ShowArray(array);
+Console.WriteLine($"The sum of numbers with odd indexes is: {GetSumOfnumsOnOddIndexes(array)}.");
