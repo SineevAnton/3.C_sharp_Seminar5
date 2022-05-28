@@ -8,7 +8,7 @@ int arrLen = int.Parse(Console.ReadLine());
 
 // Method 'initArray' creates and return an array with size, equals 'length' (4 by default).
 // Array fills with random numbers included in [-10, 10]
-int[] initArray(int length = 4)
+int[] InitArray(int length = 4)
 {
     Random rnd = new Random();
     int[] arr = new int[length];
@@ -20,7 +20,7 @@ int[] initArray(int length = 4)
 }
 
 // Method 'showArray' prints the array passed as an argument to the console 
-void showArray(int[] arr, string text = "")
+void ShowArray(int[] arr, string text = "")
 {
     var st = string.Join(", ", arr);
     Console.WriteLine(text);
@@ -30,7 +30,7 @@ void showArray(int[] arr, string text = "")
 // To make the solution easyer than the same on on seminar
 // i had to use 'List' collection, cause 'array' does not support
 // any 'Add' method
-void getPairProds(int[] arr)
+void GetPairProds(int[] arr)
 {
     List<int> result = new List<int>();
 
@@ -41,10 +41,10 @@ void getPairProds(int[] arr)
 
     if (arr.Length % 2 != 0) result.Add(arr[arr.Length / 2]);
 
-    showArray(result.ToArray(), "Array with pair's prods:");
+    ShowArray(result.ToArray(), "Array with pair's prods:");
 }
 
-int[] array = initArray(arrLen);
-showArray(array, "Initial array is:");
+int[] array = InitArray(arrLen);
+ShowArray(array, "Initial array is:");
 
-getPairProds(array);
+GetPairProds(array);
